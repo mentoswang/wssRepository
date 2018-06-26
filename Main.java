@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String path = "test.csv";
         long begin = System.currentTimeMillis();
-        //makeFile(path);
+        makeFile(path);
         long mid = System.currentTimeMillis();
         HashAggregate ha = new HashAggregate();
         ha.aggregate(path);
