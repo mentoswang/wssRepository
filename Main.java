@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) {
 
-        int[] lineCounts = {1, 10};//, 100, 1000};
+        int[] lineCounts = {1, 10, 100, 1000};
         int[] groupCounts = {1000, 100, 10, 1};
         int[] bufferCapacitys = {10, 100, 1000};
         int[] arrayThreshholds = {5, 10, 20};
